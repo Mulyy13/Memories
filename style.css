@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 38%,
+    rgba(174, 93, 191, 0.6896008403361344) 67%,
+    rgba(0, 212, 255, 1) 88%
+  );
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* border: solid 2px red; */
+  max-width: 920px;
+  gap: 4px;
+  padding-bottom: 50px;
+}
+
+.board div {
+  width: 150px;
+  height: 150px;
+  border-radius: 7px;
+}
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.silver {
+  background-color: silver;
+}
+
+.hidden {
+  background-color: black;
+}
+
+.correct {
+  background-image: url("check-symbol.png");
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.start {
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 28px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.start:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.start--active {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  font-size: 28px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.clock {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
