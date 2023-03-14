@@ -122,8 +122,8 @@ body {
 
 @media (min-width: 414px) {
   .board div {
-    width: 110px;
-    height: 100px;
+    width: 60px;
+    height: 90px;
     border-radius: 7px;
   }
 
